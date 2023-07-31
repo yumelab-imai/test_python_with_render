@@ -1,8 +1,8 @@
 print("Hello World!")
-# from fastapi import FastAPI
+from fastapi import FastAPI
 
-# app = FastAPI()
+app = FastAPI()
 
-# @app.get("/")
-# def index():
-#     return {"Hello": "World"}
+@app.get("/")
+def index():
+    return {"Hello": "World"}
