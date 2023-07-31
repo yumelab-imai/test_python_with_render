@@ -1,10 +1,10 @@
 fastapi==0.70.0
 uvicorn==0.13
 requests==2.25.1
-textract==1.6.3
+textract==
 pypdf==3.1.0
-transformers==4.10.2
-langchain==0.1.0
-openai==0.27.0
-faiss-cpu==1.7.1.post2
-data==0.4
+transformers
+langchain
+openai
+faiss-cpu
+data
